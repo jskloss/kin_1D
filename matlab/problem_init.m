@@ -115,7 +115,7 @@ switch problem_ID
         dat.siga{3} = create_material_prop('ramp2_in_time',[1.1 1.105 1.1],times,'constant_in_space',0);
         
     otherwise
-        error('unknown problem ID %i',problem_ID);
+        error('unknown problem ID ',problem_ID);
 end
 
 
